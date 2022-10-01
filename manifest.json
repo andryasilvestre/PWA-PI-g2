@@ -7,7 +7,7 @@
     "orientation": "any",
     "scope": "/",
     "short_name": "Monitoramento ABDI",
-    "start_url": ".",
+    "start_url": "/",
     "theme_color": "#ffffff",
     "categories": [],
     "screenshots": [],
@@ -17,5 +17,6 @@
             "src": "images/playstore.png",
             "type": "img/png",
             "sizes": "512x512"
-        }
-  }
+        } 
+            ]
+}
