@@ -8,8 +8,9 @@ self.addEventListener('install', function(event){
                 './index.html',
                 './generic.html',
                 './elements.html',
-                './manifest.webmanifest',
-                './index.js'
+                './manifest.json',
+                './index.js',
+                './service-worker.js'
             ])
         })
     )
