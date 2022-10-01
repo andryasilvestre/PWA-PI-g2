@@ -1,0 +1,21 @@
+{
+    "background_color": "#ffffff",
+    "description": "Monitoramento ABDI",
+    "dir": "ltr",
+    "display": "standalone",
+    "name": "Monitoramento ABDI",
+    "orientation": "any",
+    "scope": "/",
+    "short_name": "Monitoramento ABDI",
+    "start_url": ".",
+    "theme_color": "#ffffff",
+    "categories": [],
+    "screenshots": [],
+    "shortcuts": [],
+    "icons": [
+        {
+            "src": "images/playstore.png",
+            "type": "img/png",
+            "sizes": "512x512"
+        }
+  }
