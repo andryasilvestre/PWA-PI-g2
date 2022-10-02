@@ -1,4 +1,12 @@
-const cacheName = 'PI Senac'
+self.addEventListener('install', event => {
+    console.log('Service Worker installing.');
+  });
+  
+  self.addEventListener('activate', event => {
+    console.log('Service Worker activating.');
+  });
+  
+/*const cacheName = 'PI Senac'
 
 self.addEventListener('install', function(event){
     event.waitUntil(
@@ -49,4 +57,4 @@ async function networkAndCache(req){
         const cached = await cache.match(req);
         return cached
     }
-}
+} */
