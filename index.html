@@ -29,7 +29,9 @@
 		<meta name="apple-mobile-web-app-title" content="PWA Teste">
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		
-		<link href="images\appstore.png" sizes="122x122" rel="apple-touch-startup-image" />
+		<link href="images\appstore.png" sizes="192x192" rel="images\icons_set\ic_launcher.png" />
+		<link href="images\appstore.png" sizes="122x122" rel="images\appstore.png" />
+
 
 	</head>
 	<body class="is-preload">
@@ -167,5 +169,17 @@
 			  });
 			}
 		</script>
+		<script> 
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker
+                  .register('/service-worker.js')
+                  .then(serviceWorker => {
+                    console.log('Service Worker registered: ' + serviceWorker);
+                  })
+                  .catch(error => {
+                    console.log('Error registering the Service Worker: ' + error);
+                  });
+              }
+              </script>
 	</body>
 </html>
